@@ -1,24 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<<<<<<< HEAD
+# NoteKeeper
+A simple note-taking application built with Next.js that allows users to create, display, and delete notes.
+
+## Features
+
+- **Create Notes**: Add a note with a title and content.
+- **View Notes**: See all your saved notes.
+- **Delete Notes**: Remove notes when they're no longer needed.
+
+## Technologies Used
+
+- **Next.js**: A React framework for building static and server-rendered applications.
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: For adding static types to JavaScript, improving code reliability and maintainability.
+- **CSS**: For styling the app components.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Make sure you have `Node.js` installed. You can download it from [here](https://nodejs.org/).
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/NoteKeeper.git
+   cd NoteKeeper
+   ```
+
+2. Install dependencies:
+   
+```bash
+npm install
+```
+
+
+3. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+The app should now be running at http://localhost:3000.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Scripts
+npm run dev: Starts the development server at http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+npm run build: Builds the application for production.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+npm run start: Starts the production server after building.
+
+### Contributing
+Feel free to fork the repository and submit pull requests. If you find any bugs or have suggestions for improvements, please create an issue on GitHub.
+
+
+
+Made by  Sainava Modak.
+
+
+
 
 ## Learn More
 
