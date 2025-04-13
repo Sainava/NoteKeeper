@@ -1,6 +1,7 @@
 'use client';
 import React, { useState } from "react";
 import { NoteType } from "../page";
+import AddIcon from "@mui/icons-material/Add";
 
 
 type CreateAreaProps = {
@@ -43,7 +44,7 @@ function CreateArea({ onAdd }: CreateAreaProps) {
           placeholder="Take a note..."
           rows={3}
         />
-        <button type="submit">Add</button>
+        <button type="submit"><AddIcon /></button>
       </form>
     </div>
   );
